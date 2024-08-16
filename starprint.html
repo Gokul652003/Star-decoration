@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta name="viewport" width="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="starprint.css">
+</head>
+
+<body>
+
+    <div class="mainpart">
+        <div class="leftpart">
+            <div class="rainbow">
+                <h1>Create Your Star More Attractive</h1>
+                <div class="starimg">
+                    <img src="img/star.png" alt="">
+                </div>
+                <div class="rows">
+                    <div class="rowsimg">
+                        <img src="img/insert.png" alt="">
+                    </div>
+                    <input type="number" class="textbox" placeholder="Enter Number of Rows" max=10 required>
+                    
+                </div>
+                <div class="erroradd">
+
+                </div>
+                
+                <div class="rows">
+                    <div class="rowsimg">
+                        <img src="img/clock-watch-svgrepo-com.svg" alt="">
+                    </div>
+                    <input type="text" class="delay" placeholder="Enter Delay time in ms" required="tr">
+                    
+                </div>
+                <div class="erroradd1">
+
+                </div>
+                <label for="" class="information">1000ms = 1s</label>
+                <div class="color">
+                    <div class="selectstarstar">
+                        <label>Select star</label>
+                        <select name="" id="style3">
+                            
+                            <option value="✪" class="option">✪</option>
+                            
+                            <option value="☆">☆</option>
+                            <option value="✦">✦</option>
+                            <option value="✫">✫</option>
+                            <option value="✭">✭</option>
+                            <option value="✴">✴</option>
+                            <option value="✵">✵</option>
+                            <option value="✸">✸</option>
+                        </select>
+
+                    </div>
+                    <div class="Flikering">
+                        <label for="" class="colorlabel">Star color</label>
+                        <input type="color" class="style1" value="#ff0000">
+    
+                    </div>
+                    <div class="Flikering">
+                        <label for="" class="colorlabel">Flickering color</label>
+                        <input type="color" class="style2" value="#FFFF00">
+    
+                    </div>
+                    
+                    
+
+                </div>
+                <button id="set" onclick="set()">Set</button>
+                <div class="controls">
+                    <button id="start">Start</button>
+                    <button id="stop">Stop</button>
+                    <button id="pause">Pause</button>
+                </div>
+            </div>
+
+            <div class="warning">
+                <p>⚠️ Your browser does not support <a
+                        href="https://web.dev/css-individual-transform-properties/">@property</a> so the animation won’t
+                    work<br />Please use Chrome.</p>
+            </div>
+
+        </div>
+        <div class="rightpart rainbow1">
+
+        </div>
+
+    </div>
+    <script src="starprint.js"></script>
+
+</body>
+
+</html>
